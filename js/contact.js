@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ✅ Regular Expressions
   const nameRegex = /^[A-Za-z\s]{3,30}$/;
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
-  const phoneRegex = /^[0-9]{10}$/;
+  const phoneRegex = /^[0-9]{11}$/;
 
   // ✅ Show Modal Function
   function showModal(type, title, message) {
